@@ -32,7 +32,7 @@
 
 /* Sides */
 .cbp-so-side {
-	width: 50%;
+	width: 45%;
 	float: left;
 	margin: 0;
 	padding: 3em 4%;
@@ -117,18 +117,17 @@
 	}
 
 	.cbp-so-side img {
-		max-width: 120%;
+		max-width: 100%;
 	}
 }
 
-@media screen and (max-width: 41.125em) {
+@media screen and (max-width: 30em) {
 	.cbp-so-side {
 		float: none;
 		width: 100%;
 	}
 
 	.cbp-so-side img {
-		max-width: 100%;
+		max-width: 80%;
 	}
 }
-
